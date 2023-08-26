@@ -4,6 +4,7 @@ require("odovren.remap")
 ---@diagnostic disable-next-line: different-requires
 require("lazy").setup({
   {"folke/tokyonight.nvim", lazy = false, priority = 1000, opts = {}},
+  {"ellisonleao/gruvbox.nvim", priority = 1000},
   {"nvim-telescope/telescope.nvim", tag = "0.1.2", dependencies = { 'nvim-lua/plenary.nvim' }},
   {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
   "mbbill/undotree",

@@ -9,3 +9,5 @@ yay -S \
   htop \
   btop
 
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
