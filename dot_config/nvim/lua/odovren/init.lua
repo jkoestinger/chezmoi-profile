@@ -10,6 +10,11 @@ require("lazy").setup({
   {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
   "mbbill/undotree",
   "tpope/vim-fugitive",
+  {
+    "numToStr/Comment.nvim",
+    opts = {},
+    lazy = false
+  },
   "nvim-lua/plenary.nvim",
   "antoinemadec/FixCursorHold.nvim",
   {

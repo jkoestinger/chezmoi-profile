@@ -42,3 +42,18 @@ cmp.setup({
   }
 })
 
+
+require('lspconfig').tsserver.setup({})
+
+local capabilities = vim.lsp.protocol.make_client_capabilities();
+
+require('lspconfig').cssls.setup({
+  capabilities = capabilities,
+  settings = {
+    css = {
+      lint = {
+        unknownAtRules = "ignore"
+      }
+    }
+  }
+});
