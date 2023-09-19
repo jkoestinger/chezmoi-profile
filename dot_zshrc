@@ -36,3 +36,6 @@ antigen apply
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 alias "vim=nvim"
+
+source ~/.zshrc_extra
+
