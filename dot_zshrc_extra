@@ -1,2 +1,17 @@
 # put your extra config here (that should not be synced with chezmoi)
 # so you can customize this specific setup without polluting the base config
+
+# bun completions
+[ -s "/home/justink/.bun/_bun" ] && source "/home/justink/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+export FLYCTL_INSTALL="/home/justink/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
+
+export CUSTOM_UID="$(id -u)"
+export CUSTOM_GID="$(id -g)"
+
+. "$HOME/.asdf/asdf.sh"

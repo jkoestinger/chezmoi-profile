@@ -39,3 +39,6 @@ alias "vim=nvim"
 
 source ~/.zshrc_extra
 
+
+# bun completions
+[ -s "/home/justink/.bun/_bun" ] && source "/home/justink/.bun/_bun"
