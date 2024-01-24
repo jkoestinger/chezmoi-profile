@@ -1,6 +1,5 @@
 #!/bin/bash
 
-sudo pacman -S yay
 yay -Syyu
 yay -S \
   tmux \
@@ -8,9 +7,7 @@ yay -S \
   nvim \
   htop \
   btop \
-  kwin-bismuth \
-  chezmoi
+  kwin-bismuth
 
-chezmoi init https://github.com/Odovren/dotfiles.git
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
