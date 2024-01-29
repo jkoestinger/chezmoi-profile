@@ -10,4 +10,4 @@ yay -S \
   kwin-bismuth
 
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-
+touch ~/.zshrc_extra
